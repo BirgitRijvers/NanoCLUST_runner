@@ -1,7 +1,6 @@
 import os
 import subprocess
 import argparse
-
 from rich import print as rprint
 
 # Function to run
@@ -49,10 +48,10 @@ def main():
                         default='programs/NanoCLUST/main.nf', 
                         help='Path to the NanoCLUST main.nf file')
     parser.add_argument('-d', '--db', dest='database', type=str, 
-                        default='/mnt/TeacherFiles/research/Birgit/programs/NanoCLUST/db/16S_ribosomal_RNA', 
+                        default='/user/programs/NanoCLUST/db/16S_ribosomal_RNA', 
                         help='Absolute path to the database files')
     parser.add_argument('-t', '--taxdb', dest='tax_database', type=str, 
-                        default='/mnt/TeacherFiles/research/Birgit/programs/NanoCLUST/db/taxdb/taxdb', 
+                        default='/user/programs/NanoCLUST/db/taxdb/taxdb', 
                         help='Absolute path to the tax database files')
 
     # Parse!
