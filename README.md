@@ -1,6 +1,8 @@
 # NanoCLUST_runner
-Python script that runs [NanoCLUST](https://github.com/genomicsITER/NanoCLUST) on files in a directory with only 1 command. 
 
+<img width="600" alt="image" src="https://github.com/BirgitRijvers/NanoCLUST_runner/assets/126883391/acb76a00-2832-4ebd-98f6-c0f55e605051">
+
+Python script that runs [NanoCLUST](https://github.com/genomicsITER/NanoCLUST) on files in a directory with only 1 command. 
 ## Introduction
 With the [NC_runner.py](https://github.com/BirgitRijvers/NanoCLUST_runner/blob/main/NC_runner.py) script, you only have to enter a command once! 
 The script starts a NanoCLUST run for files with a specified suffix in a directory you choose.
