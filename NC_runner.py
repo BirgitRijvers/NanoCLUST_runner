@@ -32,7 +32,7 @@ def main():
         prog='NanoCLUST runner on directory',
         description='This program starts a NanoCLUST run (on default settings) for each passed fastq file in a directory',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
-        epilog='Good luck!'
+        epilog='Thanks for using this script!'
     )
 
     # Add arguments to parser
@@ -83,5 +83,6 @@ def main():
             args.tax_database
         )
 
+# Ensure that main code is only executed when this script runs directly, not when imported as module
 if __name__ == "__main__":
     main()
