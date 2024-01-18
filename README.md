@@ -27,22 +27,22 @@ For each NanoCLUST run, a separate folder will be created with the name of the c
 Those folders contain the 3 output directories (classification data, fastqc results, pipeline info) created by NanoCLUST. 
 ## Example commands
 
-*Basic command, only input directory specified (default settings):*
+Basic command, only input directory specified (default settings):
 ```bash
 python NC_runner.py sequencedata 
 ```
 
-*Input and output directory, file suffix specified*
+Input and output directory, file suffix specified
 ```bash
 python NC_runner.py sequencedata -o NanoCLUST_out -s .fastq.gz
 ```
 
-*Input and output directory, file suffix, main.nf path specified*
+Input and output directory, file suffix, main.nf path specified
 ```bash
 python NC_runner.py sequencedata -o NanoCLUST_out -s .fastq.gz -n project1/programs/NanoCLUST/main.nf
 ```
 
-*Input and output directory, file suffix, main.nf path, database paths specified*
+Input and output directory, file suffix, main.nf path, database paths specified
 ```bash
 python NC_runner.py sequencedata -o NanoCLUST_out -s .fastq.gz -n project1/programs/NanoCLUST/main.nf -d project1/db/16S_ribosomal_RNA -t project1/db/taxdb
 ```
